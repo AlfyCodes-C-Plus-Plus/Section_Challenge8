@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
 
-    int dollar{100};
-    int quarter{25};
-    int dime{10};
-    int nickle{5};
-    int penny{1};
+    const int dollar{100};
+    const int quarter{25};
+    const int dime{10};
+    const int nickle{5};
+    const int penny{1};
     int total{0};
     int numDollar{}, numQuarter{}, numDime{}, numNickle{}, numPenny{};
 
